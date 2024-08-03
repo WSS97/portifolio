@@ -1,0 +1,1225 @@
+@media (min-width: 1271px) {
+
+    body{
+        font-family: "Abel", sans-serif;
+        box-sizing: border-box;
+        width: 90vw;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgb(31, 96, 110), rgb(208, 232, 240), rgb(236, 245, 248), rgb(208, 232, 240), rgb(31, 96, 110));
+        background-repeat: no-repeat;
+        color: rgb(3, 13, 39);
+    }
+
+    #init{
+        color:  rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    nav{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: rgb(11, 99, 187);
+        border-radius: 10px;
+    }
+
+    ul.nav{
+        display: flex;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .nav>li{
+        padding: 0px 30px 0px 60px;
+    }
+
+    .nav>li:hover a{
+        color: rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    a#name{
+        font-size: 1.5em;
+    }
+
+    .mobile-menu-icon, .mobile-menu{
+        display: none;
+    }
+
+    .apresentation{
+        display: flex;
+        position: relative;
+        padding-top: 50px;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .img{
+        max-width: 300px;
+        padding: 40px 40px 0px 0px;
+    }
+
+    .img_principal{
+        border: 10px solid rgb(11, 99, 187);
+        border-radius: 50%;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .intro>h1{
+        font-size: 3.5em;
+    }
+
+    h1{
+        color: rgb(11, 89, 187);
+        margin: 100px 0px 45px 0px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 4em;
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
+        font-size: 2em;
+    }
+
+    .tec{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .linguagens{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 60px;
+    }
+
+    .lang>i{
+        padding: 10px;
+        font-size: 60px;
+        color:  rgb(11, 89, 187);
+    }
+
+    .arco{
+        width: 600px;
+        padding: 50px;
+        border-radius: 200px;
+        border: 4px solid transparent;
+        border-left: solid rgb(11, 89, 187);
+    }
+
+    .arco>p{
+        font-weight: 600;
+    }
+
+    #sobre{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #sobre>ul,
+    li.services{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    .list-services{
+        background-image: linear-gradient(rgb(208, 232, 240), #a7d6fd);
+        width: 180px;
+        padding: 15px;
+        border-radius: 15px;
+        margin: 30px;
+        font-size: 1.1em;
+        box-shadow: 0px 5px 10px 0px  rgb(3, 13, 39);
+        color:  rgb(10, 81, 167);
+    }
+
+    h1.vias-contatos{
+        padding-bottom: 50px;
+    }
+
+    .text-contat{
+        position: absolute;
+        width: 600px;
+        left: 45%;
+    }
+
+    .social{
+        padding-top: 60px;
+    }
+
+    .cntt-social{
+        background-color: #f0f4f7;
+        width: 180px;
+        padding: 10px 0px 20px 20px;
+        border-radius: 15px;
+        margin: 30px 30px 0px 30px;
+        font-size: 1.1em;
+        box-shadow: 0px 5px 10px 0px  rgb(3, 13, 39);
+        transition: ease-in-out .3s;
+    }
+
+    a.facebook{
+        color: rgb(8,102,255);
+    }
+
+    #fb{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-color: rgb(8,102,255);
+        width: 90%;
+    }
+
+    #face:hover{
+        background-color: rgb(99, 185, 255);
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    a.whatsapp{
+        color:rgb(37,211,102);
+    }
+
+    #wpp{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-color: rgb(37,211,102);
+        width: 90%;
+    }
+
+    #whats:hover{
+        background-color: rgb(165, 255, 198);
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    a.instagram{
+        color: rgb(195,47,147);
+    }
+
+    #insta{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-image: conic-gradient(rgb(69,80,165), rgb(206,43,136), rgb(254,208,112), rgb(254,208,112), rgb(165,54,180), rgb(69,80,165));
+        width: 90%;
+    }
+
+    #inst:hover{
+        background-image: conic-gradient(rgb(148, 160, 255), rgb(255, 150, 209), rgb(255, 222, 151), rgb(255, 222, 151), rgb(243, 150, 255), rgb(150, 162, 255));
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    div.contatos{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .business{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        margin: 290px 25px 150px;
+        padding: 40px 25px 40px 40px;
+        background-color: rgb(64, 118, 161);
+        border-radius: 50px 0px 0px 50px;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    .data{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input{
+        text-align: center;
+        width: 400px;
+    }
+
+    input#name{
+        width: 180px;
+    }
+
+    input#tell{
+        width: 160px;
+    }
+
+    input,
+    textarea,
+    button{
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        margin-left: 15px;
+        background-color: #f0f4f7;
+    }
+
+    textarea{
+        width: 400px;
+    }
+
+    input:hover,
+    textarea:hover{
+        transform: scale(1.02);
+    }
+
+    #enviar{
+        text-align: center;
+        padding: 15px;
+        width: 410px;
+        border: 1px solid black;
+        background-image: radial-gradient(skyblue, dodgerblue);
+    }
+
+    #enviar:hover{
+        cursor: pointer;
+        background-image: radial-gradient(aqua, lightblue);
+        border: 1px rgb(175, 235, 225);
+        transform: scale(1.02);
+    }
+
+    span{
+        font-weight: 600;
+    }
+
+    footer{
+        position: absolute;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgb(64, 118, 161);
+        padding: 40px;
+    }
+
+    .rodape{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.return{
+        position: relative;
+        bottom: 15%;
+        padding: 10px;
+        margin-bottom: 5px;
+        color: white;
+        background-color: rgb(3, 13, 39);
+    }
+
+    .return:hover{
+        cursor: pointer;
+        transform: scale(1.01);
+    }
+
+    .info_1>ul>li{
+        position: relative;
+        list-style: disc;
+        font-size: .8em;
+        padding: 2px;
+        bottom: 11px;
+    }
+
+    .info_1>ul>li:hover{
+        text-decoration: underline white;
+        transform: scale(1.02);
+    }
+
+    .info_2{
+        display: flex;
+        flex-direction: column;
+        font-size: .7em;
+    }
+
+    .info_2>a{
+        padding: 6px;
+        color: rgb(3, 13, 39);
+    }
+
+    .info_2>a:hover{
+        transform: scale(1.02);
+    }
+
+    .hr{
+        height: 1px;
+        background-color: rgb(3, 13, 39);
+    }
+
+    footer>p{
+        position: relative;
+        text-align: center;
+        top: 30px;
+        font-size: 1.3em; 
+    }
+}
+
+@media (max-width: 1271px) and (min-width: 920px) {
+    
+    body{
+        font-family: "Abel", sans-serif;
+        box-sizing: border-box;
+        width: 90vw;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgb(31, 96, 110), rgb(208, 232, 240), rgb(236, 245, 248), rgb(208, 232, 240), rgb(31, 96, 110));
+        background-repeat: no-repeat;
+        color: rgb(3, 13, 39);
+    }
+
+    #init{
+        color:  rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    nav{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: rgb(11, 99, 187);
+        border-radius: 10px;
+    }
+
+    ul.nav{
+        display: flex;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    .nav>li{
+        padding: 0px 30px 0px 60px;
+    }
+
+    .nav>li:hover a{
+        color: rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;
+    }
+
+    a#name{
+        font-size: 1.5em;
+    }
+
+    .mobile-menu-icon, .mobile-menu{
+        display: none;
+    }
+
+
+    .apresentation{
+        display: flex;
+        position: relative;
+        padding-top: 50px;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .img{
+        max-width: 300px;
+        padding: 40px 40px 0px 0px;
+    }
+
+    .img_principal{
+        border: 10px solid rgb(11, 99, 187);
+        border-radius: 50%;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .intro>h1{
+        font-size: 3.5em;
+    }
+
+    h1{
+        color: rgb(11, 89, 187);
+        margin: 100px 0px 45px 0px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 4em;
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
+        font-size: 2em;
+    }
+
+    .tec{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .linguagens{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-left: 60px;
+    }
+
+    .lang>i{
+        padding: 10px;
+        font-size: 60px;
+        color:  rgb(11, 89, 187);
+    }
+
+    .arco{
+        width: 600px;
+        padding: 50px;
+        border-radius: 200px;
+        border: 4px solid transparent;
+        border-left: solid rgb(11, 89, 187);
+    }
+
+    .arco>p{
+        font-weight: 600;
+    }
+
+    #sobre{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #sobre>ul,
+    li.services{
+        display: flex;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .list-services{
+        background-image: linear-gradient(rgb(208, 232, 240), #a7d6fd);
+        width: 160px;
+        height: 180px;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 30px;
+        font-size: 1em;
+        box-shadow: 0px 5px 10px 0px  rgb(3, 13, 39);
+        color:  rgb(10, 81, 167);
+        margin: 0 auto;
+    }
+
+    h1.vias-contatos{
+        padding-bottom: 50px;
+    }
+
+    .text-contat{
+        position: absolute;
+        width: 600px;
+        left: 30%;
+    }
+    
+
+    .social{
+        padding-top: 60px;
+        margin: 0;
+    }
+
+    .social>ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .cntt-social{
+        background-color: #f0f4f7;
+        width: 180px;
+        padding: 10px 0px 20px 20px;
+        border-radius: 15px;
+        margin: 30px 30px 0px 10px;
+        font-size: 1.1em;
+        box-shadow: 0px 5px 10px 0px  rgb(3, 13, 39);
+        transition: ease-in-out .3s;
+    }
+
+    a.facebook{
+        color: rgb(8,102,255);
+    }
+
+    #fb{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-color: rgb(8,102,255);
+        width: 90%;
+    }
+
+    #face:hover{
+        background-color: rgb(99, 185, 255);
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    a.whatsapp{
+        color:rgb(37,211,102);
+    }
+
+    #wpp{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-color: rgb(37,211,102);
+        width: 90%;
+    }
+
+    #whats:hover{
+        background-color: rgb(165, 255, 198);
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    a.instagram{
+        color: rgb(195,47,147);
+    }
+
+    #insta{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-image: conic-gradient(rgb(69,80,165), rgb(206,43,136), rgb(254,208,112), rgb(254,208,112), rgb(165,54,180), rgb(69,80,165));
+        width: 90%;
+    }
+
+    #inst:hover{
+        background-image: conic-gradient(rgb(148, 160, 255), rgb(255, 150, 209), rgb(255, 222, 151), rgb(255, 222, 151), rgb(243, 150, 255), rgb(150, 162, 255));
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    div.contatos{
+        display: flex;
+        justify-content: space-between;
+        gap: 63px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .business{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        min-width: 480px;
+        margin: 290px 25px 150px;
+        padding: 40px 25px 40px 40px;
+        background-color: rgb(64, 118, 161);
+        border-radius: 50px 0px 0px 50px;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    .data{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input{
+        text-align: center;
+        width: 400px;
+    }
+
+    input#name{
+        width: 180px;
+    }
+
+    input#tell{
+        width: 160px;
+    }
+
+    input,
+    textarea,
+    button{
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        margin-left: 15px;
+        background-color: #f0f4f7;
+    }
+
+    textarea{
+        width: 400px;
+    }
+
+    input:hover,
+    textarea:hover{
+        transform: scale(1.02);
+    }
+
+    #enviar{
+        text-align: center;
+        padding: 15px;
+        width: 410px;
+        border: 1px solid black;
+        background-image: radial-gradient(skyblue, dodgerblue);
+    }
+
+    #enviar:hover{
+        cursor: pointer;
+        background-image: radial-gradient(aqua, lightblue);
+        border: 1px rgb(175, 235, 225);
+        transform: scale(1.02);
+    }
+
+    span{
+        font-weight: 600;
+    }
+
+    footer{
+        position: absolute;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgb(64, 118, 161);
+        padding: 40px;
+    }
+
+    .rodape{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.return{
+        position: relative;
+        bottom: 15%;
+        padding: 10px;
+        margin-bottom: 5px;
+        color: white;
+        background-color: rgb(3, 13, 39);
+    }
+
+    .return:hover{
+        cursor: pointer;
+        transform: scale(1.01);
+    }
+
+    .info_1>ul>li{
+        position: relative;
+        list-style: disc;
+        font-size: .8em;
+        padding: 2px;
+        bottom: 11px;
+    }
+
+    .info_1>ul>li:hover{
+        text-decoration: underline white;
+        transform: scale(1.02);
+    }
+
+    .info_2{
+        display: flex;
+        flex-direction: column;
+        font-size: .7em;
+    }
+
+    .info_2>a{
+        padding: 6px;
+        color: rgb(3, 13, 39);
+    }
+
+    .info_2>a:hover{
+        transform: scale(1.02);
+    }
+
+    .hr{
+        height: 1px;
+        background-color: rgb(3, 13, 39);
+    }
+
+    footer>p{
+        position: relative;
+        text-align: center;
+        top: 30px;
+        font-size: 1.3em; 
+    }
+}
+
+@media (max-width: 920px){
+    body{
+        font-family: "Abel", sans-serif;
+        box-sizing: border-box;
+        width: 90vw;
+        max-width: 730px;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgb(31, 96, 110), rgb(208, 232, 240), rgb(236, 245, 248), rgb(208, 232, 240), rgb(31, 96, 110));
+        background-repeat: no-repeat;
+        color: rgb(3, 13, 39);
+    }
+
+    #init{
+        color:  rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    nav{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: rgb(11, 99, 187);
+        border-radius: 10px;
+    }
+
+    ul.nav{
+        display: none;
+    }
+
+    button.bars{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 1.3em;
+        color: white;
+    }
+
+    .opend{
+        transform: rotate(90deg);
+    }
+
+    .mobile-menu ul{
+        display: none;
+    }
+
+    .open{
+        position: absolute;
+        right: 0;
+        margin-right: 60px;
+        z-index: 1;
+    }
+
+    .open ul{
+        display: block;
+        position: absolute;
+        right: 0;
+        padding: 10px 15px 10px 10px;
+        margin: 0;
+        background-color: rgb(11, 99, 187);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #init{
+        color:  rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    li{
+        list-style: none;
+    }
+    
+    .nav>li:hover a{
+        color: rgb(5, 38, 46);
+        font-weight: 600;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2em;
+    }
+ 
+    a#name{
+        font-size: 1.5em;
+    }
+
+    .apresentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-top: 50px;
+        margin: 0;
+    }
+
+    .img{
+        position: absolute;
+        top: 1px;
+        max-width: 200px;
+        height: 200px;
+        padding: 40px 40px 0px 0px;
+    }
+
+    .img_principal{
+        border: 10px solid rgb(11, 99, 187);
+        border-radius: 50%;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .intro{
+        margin-top: 150px;
+        position: relative;
+    }
+
+    .intro>h1{
+        font-size: 2.5em;
+    }
+
+    h1{
+        color: rgb(11, 89, 187);
+        margin: 100px 0px 45px 0px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2.5em;
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
+        font-size: 1.6em;
+    }
+
+    .tec{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linguagens{
+        margin-top: 30px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        width: 400px;
+        border-bottom: solid rgb(255, 255, 255);
+        box-shadow: 5px 8px 5px 5px white;
+    }
+
+    .lang>i{
+        padding: 10px;
+        font-size: 2.5em;
+        color:  rgb(11, 89, 187);
+    }
+
+    .arco{
+        padding: 0px 50px;
+        font-weight: 600;
+        border: 4px solid transparent;
+    }
+
+    .arco>p{
+        font-weight: 600;
+    }
+
+    #sobre{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #sobre>ul{
+        position: relative;
+        display: inline-block;
+    }
+
+    #sobre>ul,
+    li.services{
+        padding: 0;
+        margin: 0;
+    }
+
+    .list-services{
+        background-image: linear-gradient(rgb(208, 232, 240), #a7d6fd);
+        width: 180px;
+        min-height: 200px;
+        padding: 15px;
+        border-radius: 15px;
+        margin: 30px;
+        font-size: 1.1em;
+        box-shadow: 0px 5px 10px 0px  rgb(3, 13, 39);
+        color:  rgb(10, 81, 167);
+    }
+
+    .text-contat{
+        width: 98%;
+    }
+
+    .social>ul{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        margin-right: 30px;
+    }
+ 
+    .cntt-social{
+        background-color: #f0f4f7;
+        width: 180px;
+        padding: 10px 0px 20px 20px;
+        border-radius: 15px;
+        margin: 30px 30px 0px 30px;
+        font-size: 1.1em;
+        box-shadow: 0px 5px 10px 0px  rgb(3, 13, 39);
+        transition: ease-in-out .3s;
+    }
+
+    a.facebook{
+        color: rgb(8,102,255);
+    }
+
+    #fb{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-color: rgb(8,102,255);
+        width: 90%;
+    }
+
+    #face:hover{
+        background-color: rgb(99, 185, 255);
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    a.whatsapp{
+        color:rgb(37,211,102);
+    }
+
+    #wpp{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-color: rgb(37,211,102);
+        width: 90%;
+    }
+
+    #whats:hover{
+        background-color: rgb(165, 255, 198);
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+    a.instagram{
+        color: rgb(195,47,147);
+    }
+
+    #insta{
+        border-radius: 50%;
+        margin: 0px 10px 0px 0px;
+        background-image: conic-gradient(rgb(69,80,165), rgb(206,43,136), rgb(254,208,112), rgb(254,208,112), rgb(165,54,180), rgb(69,80,165));
+        width: 90%;
+    }
+
+    #inst:hover{
+        background-image: conic-gradient(rgb(148, 160, 255), rgb(255, 150, 209), rgb(255, 222, 151), rgb(255, 222, 151), rgb(243, 150, 255), rgb(150, 162, 255));
+        color: white;
+        transform: scale(1.02);
+        box-shadow: 0px 5px 10px 0px rgb(177, 172, 172);
+    }
+
+
+    .business{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 0 auto;
+        padding: 40px 25px 40px 40px;
+        background-color: rgb(64, 118, 161);
+        border-radius: 50px 50px 0px 0px;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    .data{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input{
+        text-align: center;
+        width: 90%;
+    }
+
+    input#name{
+        width: 90%;
+    }
+
+    input#tell{
+        width: 81%;
+    }
+
+    input,
+    textarea,
+    button{
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        padding: 5px;
+        margin-left: 15px;
+        background-color: #f0f4f7;
+    }
+
+    textarea{
+        width: 90%;
+    }
+
+    input:hover,
+    textarea:hover{
+        transform: scale(1.02);
+    }
+
+    #enviar{
+        text-align: center;
+        padding: 15px;
+        width: 93%;
+        border: 1px solid black;
+        background-image: radial-gradient(skyblue, dodgerblue);
+    }
+
+    #enviar:hover{
+        cursor: pointer;
+        background-image: radial-gradient(aqua, lightblue);
+        border: 1px rgb(175, 235, 225);
+        transform: scale(1.02);
+    }
+
+    span{
+        font-weight: 600;
+    }
+
+    footer{
+        position: absolute;
+        left: 0;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgb(64, 118, 161);
+        padding: 40px;
+        border-top: 1px solid rgb(3, 13, 39);
+        box-shadow: 5px 5px 5px 5px rgb(3, 13, 39);
+    }
+
+    .rodape{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.return{
+        position: relative;
+        bottom: 15%;
+        padding: 10px;
+        margin-bottom: 5px;
+        color: white;
+        background-color: rgb(3, 13, 39);
+    }
+
+    .return:hover{
+        cursor: pointer;
+        transform: scale(1.01);
+    }
+
+    .info_1>ul>li{
+        position: relative;
+        list-style: disc;
+        font-size: .8em;
+        padding: 2px;
+        bottom: 11px;
+    }
+
+    .info_1>ul>li:hover{
+        text-decoration: underline white;
+        transform: scale(1.02);
+    }
+
+    .info_2{
+        display: flex;
+        flex-direction: column;
+        font-size: .7em;
+    }
+
+    .info_2>a{
+        padding: 6px;
+        color: rgb(3, 13, 39);
+    }
+
+    .info_2>a:hover{
+        transform: scale(1.02);
+    }
+
+    .hr{
+        height: 1px;
+        background-color: rgb(3, 13, 39);
+    }
+
+    footer>p{
+        position: relative;
+        text-align: center;
+        top: 30px;
+        font-size: 1.3em; 
+    }
+}
